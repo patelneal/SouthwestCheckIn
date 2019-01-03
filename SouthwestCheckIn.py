@@ -22,7 +22,7 @@ delta = datetime.timedelta(minutes=1)
 print(datetime.datetime.now() + delta)
 
 while datetime.datetime.now() < date:
-	sleep(1)
+	time.sleep(1)
 
 print(datetime.datetime.now())
 driver = webdriver.Chrome('/usr/local/bin/chromedriver')
